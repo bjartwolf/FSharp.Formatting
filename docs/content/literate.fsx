@@ -139,8 +139,8 @@ documents or entire directories.
 The `Literate` type has two static methods `ProcessScriptFile` and `ProcessMarkdown`
 that turn an F# script file and Markdown document, respectively, into an HTML file.
 If you wish to specify the HTML file structure, you can provide a template. Two sample templates
-are included: for a [single file](https://github.com/tpetricek/FSharp.Formatting/blob/master/literate/templates/template-file.html)
-and for a [project](https://github.com/tpetricek/FSharp.Formatting/blob/master/literate/templates/template-project.html),
+are included: for a [single file](https://github.com/tpetricek/FSharp.Formatting/blob/master/misc/literate/templates/template-file.html)
+and for a [project](https://github.com/tpetricek/FSharp.Formatting/blob/master/misc/literate/templates/template-project.html),
 but you can use your own. If no template is provided, the result is simply the HTML body
 of the document with HTML for tool tips appended to the end.
 
